@@ -1,0 +1,108 @@
+./bjam
+Performing configuration checks
+
+    - default address-model    : 64-bit (cached)
+    - default architecture     : x86 (cached)
+
+Building the Boost C++ Libraries.
+
+
+    - C++11 mutex              : no  (cached)
+    - lockfree boost::atomic_flag : yes (cached)
+    - Boost.Config Feature Check: cxx11_auto_declarations : no  (cached)
+    - Boost.Config Feature Check: cxx11_constexpr : no  (cached)
+    - Boost.Config Feature Check: cxx11_defaulted_functions : no  (cached)
+    - Boost.Config Feature Check: cxx11_final : no  (cached)
+    - Boost.Config Feature Check: cxx11_hdr_mutex : no  (cached)
+    - Boost.Config Feature Check: cxx11_hdr_tuple : no  (cached)
+    - Boost.Config Feature Check: cxx11_lambdas : no  (cached)
+    - Boost.Config Feature Check: cxx11_noexcept : no  (cached)
+    - Boost.Config Feature Check: cxx11_nullptr : no  (cached)
+    - Boost.Config Feature Check: cxx11_rvalue_references : no  (cached)
+    - Boost.Config Feature Check: cxx11_template_aliases : no  (cached)
+    - Boost.Config Feature Check: cxx11_thread_local : no  (cached)
+    - Boost.Config Feature Check: cxx11_variadic_templates : no  (cached)
+    - has_icu builds           : yes (cached)
+warning: Graph library does not contain MPI-based parallel components.
+note: to enable them, add "using mpi ;" to your user-config.jam
+    - zlib                     : yes (cached)
+    - bzip2                    : yes (cached)
+    - lzma                     : no  (cached)
+    - zstd                     : no  (cached)
+    - iconv (libc)             : yes (cached)
+    - icu                      : yes (cached)
+warning: non-free usage requirements <runtime-link>shared ignored
+warning: in main-target build_options at libs/locale/build/Jamfile.v2:414
+warning: non-free usage requirements <runtime-link>shared ignored
+warning: in main-target build_flags at libs/locale/build/Jamfile.v2:415
+    - native-atomic-int32-supported : yes (cached)
+    - native-syslog-supported  : yes (cached)
+    - pthread-supports-robust-mutexes : yes (cached)
+    - compiler-supports-ssse3  : yes (cached)
+    - compiler-supports-avx2   : yes (cached)
+    - gcc visibility           : yes (cached)
+    - long double support      : yes (cached)
+warning: skipping optional Message Passing Interface (MPI) library.
+note: to enable MPI support, add "using mpi ;" to user-config.jam.
+note: to suppress this message, pass "--without-mpi" to bjam.
+note: otherwise, you can safely ignore this message.
+    - libbacktrace builds      : yes (cached)
+    - addr2line builds         : yes (cached)
+    - WinDbg builds            : no  (cached)
+    - WinDbgCached builds      : no  (cached)
+    - BOOST_COMP_GNUC >= 4.3.0 : no  (cached)
+    - zlib                     : yes (cached)
+    - bzip2                    : yes (cached)
+    - lzma                     : no  (cached)
+    - zstd                     : no  (cached)
+
+Component configuration:
+
+    - atomic                   : building
+    - chrono                   : building
+    - container                : building
+    - context                  : building
+    - contract                 : building
+    - coroutine                : building
+    - date_time                : building
+    - exception                : building
+    - fiber                    : building
+    - filesystem               : building
+    - graph                    : building
+    - graph_parallel           : building
+    - iostreams                : building
+    - locale                   : building
+    - log                      : building
+    - math                     : building
+    - mpi                      : building
+    - program_options          : building
+    - python                   : building
+    - random                   : building
+    - regex                    : building
+    - serialization            : building
+    - stacktrace               : building
+    - system                   : building
+    - test                     : building
+    - thread                   : building
+    - timer                    : building
+    - type_erasure             : building
+    - wave                     : building
+
+...patience...
+...patience...
+...patience...
+...patience...
+...patience...
+...patience...
+...found 15619 targets...
+
+
+The Boost C++ Libraries were successfully built!
+
+The following directory should be added to compiler include paths:
+
+    /home/edidada/boost_1_69_0
+
+The following directory should be added to linker library paths:
+
+    /home/edidada/boost_1_69_0/stage/lib
